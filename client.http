@@ -1,0 +1,15 @@
+# @name post_alunos
+POST http://localhost:8000/alunos
+Content-Type: application/json
+
+{
+    "nome": "Fernanda",
+    "idade": 22,
+    "nota": 9.5
+}
+
+###
+
+# @name get_alunos
+GET http://localhost:8000/alunos
+Content-Type: application/json
